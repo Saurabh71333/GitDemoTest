@@ -32,6 +32,13 @@ public static void endTestCase(String sTestCaseName){
 
    }
 
+public static void endTestCaseNew(String sTestCaseName){
+	 Log.info("XXXXXXXXXXXXXXXXXXXXXXX             "+"-E---N---D-"+ sTestCaseName  +"             XXXXXXXXXXXXXXXXXXXXXX");
+  Log.info("X");
+  Log.info("X");
+
+  }
+
 public static void endTestSuit(String sTestSuitName){
 	   Log.info("XXXXXXXXXXXXXXXXXXXXXXX             "+"-E---N---D-"+ sTestSuitName +"             XXXXXXXXXXXXXXXXXXXXXX");
 	   Log.info("X");
