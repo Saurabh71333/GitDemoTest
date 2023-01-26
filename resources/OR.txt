@@ -1,0 +1,77 @@
+###############################################################################
+========================
+  Login Page
+========================
+enter_Username=CssSelector|input#exampleInputEmail1
+enter_Password=CssSelector|input#exampleInputPassword1
+link_Forgot=LinkText|Forgot Password
+btn_Login=CssSelector|input.btn.btn-default
+
+
+-----------------------------
+Forgot Password
+-----------------------------
+link_Forget=CssSelector|a.forgetPass
+enter_User=CssSelector|#UserName
+select_Question=CssSelector|#SecurityQuestionId
+//What is your pet’s name?
+
+enter_Answer=CssSelector|input#SecurityAnswer
+btn_Submit=CssSelector|div.mrg20-B.text-center>div>input
+label_ForgetConfirmation=CssSelector|div.pd10-LR > div > div > ul > li
+//Verification mail sent to your registered Email Id -Saurabh.gupta@diaspark.com, Please check.
+
+
+
+
+
+
+=================================
+  Kitchen manager Dashboard Page
+=================================
+label_Dashboard=CssSelector|span.font28.headerLabel
+label_location=CssSelector|div.col-md-8
+
+enter_Searchkey=CssSelector|input#auto_complete
+empty_table=CssSelector|td.dataTables_empty
+
+btn_Cross=CssSelector|.glyphicon-remove-circle
+Client_Cross=CssSelector|#Second Client Setup
+
+
+btn_Action=CssSelector|td.table-actions>div>a
+btn_EditLocation=CssSelector|.open>ul:nth-child(2)>li:nth-child(1)>a:nth-child(1)
+label_EditLocation=CssSelector|div.col-md-12.col-sm-12.col-xs-12.mainHead
+
+
+
+=================================
+   User Management Page
+=================================
+btn_Menu=CssSelector|a.burgerMenu
+link_UserManagement=CssSelector|ul.navMenu > li:nth-child(5) > a
+link_User=linkText|User Management
+label_UserManagement=CssSelector|.col-md-8
+
+btn_AddUser=CssSelector|a.pull-right
+dropdown_Client=CssSelector|#OrganizationId
+//PartsTown
+input_addUsername=CssSelector|#UserName
+input_Firstname=CssSelector|#FirstName
+input_Lastname=CssSelector|#LastName
+input_address=CssSelector|#Address
+input_Email=CssSelector|#Email
+input_WorkPhone=CssSelector|#Phone
+input_Mobile=CssSelector|#Mobile
+dropdown_Location=CssSelector|button.multiselect
+//Select all
+checkbox_Selectall=CssSelector|a.multiselect-all>label:nth-child(1)
+element_View=CssSelector|#tblUserAccess > tbody
+
+element_OM=CssSelector|#tblUserAccess.table.table-fixed
+checkbox_OM=Xpath|//*[@id="2177"]/td[2]/label
+//checkbox_OMRole=CssSelector|#\32 199 > td:nth-child(2) > label:nth-child(1) > span:nth-child(2)
+btn_SubmitUser=CssSelector|#btnSubmit
+
+element_OMRole= CssSelector|#\32 199
+checkbox_OMRole=CssSelector|#\32 199 > td:nth-child(2) > label:nth-child(1) > span:nth-child(2)
