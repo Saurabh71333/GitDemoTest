@@ -27,6 +27,7 @@ public class Constants {
 
 	// List of Test Suit Variables
 	public static final int COL_TESTDEVICE2 =5;
+	public static final int COL_TESTBROWSER1 =5;
 	public static final int COL_TESTSUITNAME = 1;
 	public static final int COL_BROWSER = 2;
 	public static final int COL_ENVIRONMENT = 3;
